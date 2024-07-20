@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
-    <link>//localhost:55154/</link>
-    <description>Recent content on Blowfish</description>
+    <title>PPSW.TECH</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on PPSW.TECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <atom:link href="//localhost:55154/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2024 PP Software Technology</copyright>
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Post 2</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>这是我的博客文章内容。</description>
+      
+    </item>
+    
+    <item>
+      <title>My Post My PostMy PostMy PostMy PostMy PostMy PostMy PostMy PostMy PostMy PostMy Post</title>
+      <link>http://localhost:1313/posts/another-post/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/another-post/</guid>
+      <description>这是我的博客文章内容。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/another-post/featured.png" />
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
