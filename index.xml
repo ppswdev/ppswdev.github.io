@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PPSW.TECH</title>
+    <title>PPSW.ASIA</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on PPSW.TECH</description>
+    <description>Recent content on PPSW.ASIA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2024 PP Software Technology</copyright>
+    <copyright>Copyright © 2024 PPSW.ASIA</copyright>
     <lastBuildDate>Sun, 21 Jul 2024 12:57:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>t003</title>
@@ -49,12 +49,12 @@
     </item>
     
     <item>
-      <title>End User Agreement</title>
-      <link>http://localhost:1313/agreements/eula/</link>
+      <title>End User License Agreement (EULA)</title>
+      <link>http://localhost:1313/agreements/eula/hello_app/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/agreements/eula/</guid>
-      <description>这个是用户协议</description>
+      <guid>http://localhost:1313/agreements/eula/hello_app/</guid>
+      <description>This End User License Agreement (&amp;ldquo;Agreement&amp;rdquo;) is a legal agreement between you (&amp;ldquo;User&amp;rdquo; or &amp;ldquo;you&amp;rdquo;) and [Your Company Name] (&amp;ldquo;Company,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) for the use of &amp;ldquo;HelloApp&amp;rdquo; (&amp;ldquo;Software&amp;rdquo;).</description>
       
     </item>
     
@@ -64,7 +64,17 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/agreements/privacy/</guid>
-      <description>这个是隐私条款</description>
+      <description>Privacy Policy # We highly value your privacy and are committed to protecting your personal information.</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>这个页面的内容是全宽的。</description>
       
     </item>
     
@@ -89,16 +99,6 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>这个页面的内容是全宽的。</description>
-      
-    </item>
-    
-    <item>
       <title>我的着陆页</title>
       <link>http://localhost:1313/posts/post3/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
@@ -109,12 +109,32 @@
     </item>
     
     <item>
+      <title>Portfolio - 01</title>
+      <link>http://localhost:1313/portfolio/p001/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/p001/</guid>
+      <description>作品1</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/portfolio/p001/featured.png" />
+    </item>
+    
+    <item>
+      <title>Portfolio - 02</title>
+      <link>http://localhost:1313/portfolio/p002/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/p002/</guid>
+      <description>作品2</description>
+      
+    </item>
+    
+    <item>
       <title>Terms of use</title>
       <link>http://localhost:1313/agreements/termsofuse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/agreements/termsofuse/</guid>
-      <description>用户协议条款 欢迎使用我们的网站。在使用本网站之前，请仔细阅读以下用户协议条款。</description>
+      <description>These Terms of Service (&amp;ldquo;Terms&amp;rdquo;) are a legal agreement between you (&amp;ldquo;User&amp;rdquo; or &amp;ldquo;you&amp;rdquo;) and PPSW.</description>
       
     </item>
     
