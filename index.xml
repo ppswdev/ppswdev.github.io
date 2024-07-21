@@ -7,7 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024 PP Software Technology</copyright>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jul 2024 12:57:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>t003</title>
+      <link>http://localhost:1313/posts/tutorials/t003/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/tutorials/t003/</guid>
+      <description>内容在这里</description>
+      
+    </item>
+    
+    <item>
+      <title>T004</title>
+      <link>http://localhost:1313/posts/tutorials/t004/</link>
+      <pubDate>Sun, 21 Jul 2024 12:57:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/tutorials/t004/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>T002</title>
+      <link>http://localhost:1313/posts/tutorials/t002/</link>
+      <pubDate>Sun, 21 Jul 2024 12:43:30 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/tutorials/t002/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>直接嵌入HTML代码</title>
+      <link>http://localhost:1313/posts/tutorials/t001/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/tutorials/t001/</guid>
+      <description>欢迎来到关于页面！这里是关于我的一些信息。</description>
+      
+    </item>
+    
+    <item>
+      <title>End User Agreement</title>
+      <link>http://localhost:1313/agreements/eula/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/agreements/eula/</guid>
+      <description>这个是用户协议</description>
+      
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/agreements/privacy/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/agreements/privacy/</guid>
+      <description>这个是隐私条款</description>
+      
+    </item>
+    
     <item>
       <title>My Post 2</title>
       <link>http://localhost:1313/posts/first-post/</link>
@@ -29,12 +89,32 @@
     </item>
     
     <item>
-      <title></title>
+      <title>About</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <description>这个页面的内容是全宽的。</description>
+      
+    </item>
+    
+    <item>
+      <title>我的着陆页</title>
+      <link>http://localhost:1313/posts/post3/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/post3/</guid>
+      <description>这个页面的内容是全宽的。</description>
+      
+    </item>
+    
+    <item>
+      <title>Terms of use</title>
+      <link>http://localhost:1313/agreements/termsofuse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/agreements/termsofuse/</guid>
+      <description>用户协议条款 欢迎使用我们的网站。在使用本网站之前，请仔细阅读以下用户协议条款。</description>
       
     </item>
     
