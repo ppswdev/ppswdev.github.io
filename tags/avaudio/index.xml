@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AVAudio on PPSW.ASIA</title>
+    <link>http://localhost:1313/tags/avaudio/</link>
+    <description>Recent content in AVAudio on PPSW.ASIA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2024 PPSW.ASIA</copyright>
+    <lastBuildDate>Sat, 17 Aug 2024 21:00:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/avaudio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AVAudioEngine详解</title>
+      <link>http://localhost:1313/posts/ios/audioengine/</link>
+      <pubDate>Sat, 17 Aug 2024 21:00:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/ios/audioengine/</guid>
+      <description>AVAudioEngine 是 AVFoundation 框架中的核心类，用于构建音频处理图，即一系列音频单元的连接，可以实现复杂的音频处理任务。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ios/audioengine/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

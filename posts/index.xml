@@ -7,75 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024 PPSW.ASIA</copyright>
-    <lastBuildDate>Sun, 21 Jul 2024 12:57:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Aug 2024 21:00:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>t003</title>
-      <link>http://localhost:1313/posts/tutorials/t003/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <title>AVAudioEngine详解</title>
+      <link>http://localhost:1313/posts/ios/audioengine/</link>
+      <pubDate>Sat, 17 Aug 2024 21:00:01 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/t003/</guid>
-      <description>内容在这里</description>
-      
+      <guid>http://localhost:1313/posts/ios/audioengine/</guid>
+      <description>AVAudioEngine 是 AVFoundation 框架中的核心类，用于构建音频处理图，即一系列音频单元的连接，可以实现复杂的音频处理任务。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ios/audioengine/featured.png" />
     </item>
     
     <item>
-      <title>T004</title>
-      <link>http://localhost:1313/posts/tutorials/t004/</link>
-      <pubDate>Sun, 21 Jul 2024 12:57:09 +0800</pubDate>
+      <title>万能解决方案之彻底解决cocoapods环境问题</title>
+      <link>http://localhost:1313/posts/ios/cocoapods/</link>
+      <pubDate>Sun, 21 Jul 2024 09:09:07 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/t004/</guid>
-      <description></description>
-      
+      <guid>http://localhost:1313/posts/ios/cocoapods/</guid>
+      <description>如果你使用Cocoapods环境出现各种问题，可以参考这篇文章就能彻底解决。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ios/cocoapods/featured.png" />
     </item>
     
     <item>
-      <title>T002</title>
-      <link>http://localhost:1313/posts/tutorials/t002/</link>
-      <pubDate>Sun, 21 Jul 2024 12:43:30 +0800</pubDate>
+      <title>Git入门教程</title>
+      <link>http://localhost:1313/posts/git/use/</link>
+      <pubDate>Mon, 17 Jun 2024 17:54:26 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/t002/</guid>
-      <description></description>
-      
+      <guid>http://localhost:1313/posts/git/use/</guid>
+      <description>安装Git # &amp;hellip;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/git/use/featured.png" />
     </item>
     
     <item>
-      <title>直接嵌入HTML代码</title>
-      <link>http://localhost:1313/posts/tutorials/t001/</link>
-      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Git安装</title>
+      <link>http://localhost:1313/posts/git/started/</link>
+      <pubDate>Mon, 17 Jun 2024 16:54:26 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/t001/</guid>
-      <description>欢迎来到关于页面！这里是关于我的一些信息。</description>
-      
-    </item>
-    
-    <item>
-      <title>My Post 2</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>这是我的博客文章内容。</description>
-      
-    </item>
-    
-    <item>
-      <title>My Post My PostMy PostMy PostMy PostMy PostMy PostMy PostMy PostMy PostMy PostMy Post</title>
-      <link>http://localhost:1313/posts/another-post/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/another-post/</guid>
-      <description>这是我的博客文章内容。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/another-post/featured.png" />
-    </item>
-    
-    <item>
-      <title>我的着陆页</title>
-      <link>http://localhost:1313/posts/post3/</link>
-      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/post3/</guid>
-      <description>这个页面的内容是全宽的。</description>
-      
+      <guid>http://localhost:1313/posts/git/started/</guid>
+      <description>Git安装教程</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/git/started/featured.png" />
     </item>
     
   </channel>

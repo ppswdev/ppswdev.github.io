@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024 PPSW.ASIA</copyright>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/agreements/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jun 2024 16:54:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/agreements/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End User License Agreement (EULA)</title>
       <link>http://localhost:1313/agreements/eula/hello_app/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2024 16:54:26 +0800</pubDate>
       
       <guid>http://localhost:1313/agreements/eula/hello_app/</guid>
       <description>This End User License Agreement (&amp;ldquo;Agreement&amp;rdquo;) is a legal agreement between you (&amp;ldquo;User&amp;rdquo; or &amp;ldquo;you&amp;rdquo;) and [Your Company Name] (&amp;ldquo;Company,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) for the use of &amp;ldquo;HelloApp&amp;rdquo; (&amp;ldquo;Software&amp;rdquo;).</description>
@@ -21,17 +21,17 @@
     <item>
       <title>Privacy Policy</title>
       <link>http://localhost:1313/agreements/privacy/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2024 16:54:26 +0800</pubDate>
       
       <guid>http://localhost:1313/agreements/privacy/</guid>
-      <description>Privacy Policy # We highly value your privacy and are committed to protecting your personal information.</description>
+      <description>We highly value your privacy and are committed to protecting your personal information.</description>
       
     </item>
     
     <item>
       <title>Terms of use</title>
       <link>http://localhost:1313/agreements/termsofuse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2024 16:54:26 +0800</pubDate>
       
       <guid>http://localhost:1313/agreements/termsofuse/</guid>
       <description>These Terms of Service (&amp;ldquo;Terms&amp;rdquo;) are a legal agreement between you (&amp;ldquo;User&amp;rdquo; or &amp;ldquo;you&amp;rdquo;) and PPSW.</description>
