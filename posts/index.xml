@@ -29,6 +29,16 @@
     </item>
     
     <item>
+      <title>macOS开发环境的安装和配置</title>
+      <link>http://localhost:1313/posts/ios/macos_dev_env/</link>
+      <pubDate>Sat, 20 Jul 2024 09:09:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/ios/macos_dev_env/</guid>
+      <description>macOS开发环境的安装和配置</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ios/macos_dev_env/featured.png" />
+    </item>
+    
+    <item>
       <title>Git入门教程</title>
       <link>http://localhost:1313/posts/git/use/</link>
       <pubDate>Mon, 17 Jun 2024 17:54:26 +0800</pubDate>

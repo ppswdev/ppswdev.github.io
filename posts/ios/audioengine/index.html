@@ -733,7 +733,7 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h1 class="relative group">iOS 音频引擎 AVAudioEngine 
+<h2 class="relative group">iOS 音频引擎 AVAudioEngine 
     <div id="ios-%E9%9F%B3%E9%A2%91%E5%BC%95%E6%93%8E-avaudioengine" class="anchor"></div>
     
     <span
@@ -742,11 +742,11 @@
             style="text-decoration-line: none !important;" href="#ios-%E9%9F%B3%E9%A2%91%E5%BC%95%E6%93%8E-avaudioengine" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
+</h2>
 <p><code>AVAudioEngine</code> 是 AVFoundation 框架中的核心类，用于构建音频处理图，即一系列音频单元的连接，可以实现复杂的音频处理任务。在 <code>AVAudioEngine</code> 中，你可以使用各种内置的音频单元 (<code>AVAudioUnit</code>) 来添加各种音频效果。以下是 <code>AVAudioEngine</code> 中可用的一些主要音频效果单元及其详细说明：</p>
 
 
-<h2 class="relative group">1. AVAudioUnitTimePitch 
+<h3 class="relative group">1. AVAudioUnitTimePitch 
     <div id="1-avaudiounittimepitch" class="anchor"></div>
     
     <span
@@ -755,11 +755,11 @@
             style="text-decoration-line: none !important;" href="#1-avaudiounittimepitch" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p><code>AVAudioUnitTimePitch</code> 是 AVFoundation 框架中的一个音频单元，用于在 <code>AVAudioEngine</code> 的音频处理图中实时改变音频的时间和音调。这个单元允许你独立地调整音频的速度和音高，这对于音乐制作、音频编辑和实时音频效果非常有用。</p>
 
 
-<h4 class="relative group">主要功能 
+<h5 class="relative group">主要功能 
     <div id="%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD" class="anchor"></div>
     
     <span
@@ -768,7 +768,7 @@
             style="text-decoration-line: none !important;" href="#%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ol>
 <li><strong>时间拉伸</strong>: <code>AVAudioUnitTimePitch</code> 可以改变音频的播放速度，即时间拉伸，而不改变音高。这在需要调整音频长度以匹配特定时间线的情况下很有用。</li>
 <li><strong>音调变化</strong>: 同时，这个单元也可以改变音频的音调（音高），而不改变播放速度。这在需要调整音频的音高以匹配其他音轨或音阶时非常有用。</li>
@@ -776,7 +776,7 @@
 </ol>
 
 
-<h4 class="relative group">属性 
+<h5 class="relative group">属性 
     <div id="%E5%B1%9E%E6%80%A7" class="anchor"></div>
     
     <span
@@ -785,7 +785,7 @@
             style="text-decoration-line: none !important;" href="#%E5%B1%9E%E6%80%A7" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <p><code>AVAudioUnitTimePitch</code> 提供了几个关键属性来控制其行为：</p>
 <ul>
 <li><strong>pitch</strong>: 一个浮点数，表示音高的变化。1.0 表示原始音高，小于1.0表示降低音高，大于1.0表示提高音高。</li>
@@ -795,7 +795,7 @@
 </ul>
 
 
-<h4 class="relative group">使用示例 
+<h5 class="relative group">使用示例 
     <div id="%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B" class="anchor"></div>
     
     <span
@@ -804,7 +804,7 @@
             style="text-decoration-line: none !important;" href="#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <p>下面是一个使用 <code>AVAudioUnitTimePitch</code> 的简单示例：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">AVFoundation</span>
 </span></span><span class="line"><span class="cl">
@@ -832,7 +832,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
 
-<h2 class="relative group">2. AVAudioUnitReverb（混响） 
+<h3 class="relative group">2. AVAudioUnitReverb（混响） 
     <div id="2-avaudiounitreverb%E6%B7%B7%E5%93%8D" class="anchor"></div>
     
     <span
@@ -841,7 +841,7 @@
             style="text-decoration-line: none !important;" href="#2-avaudiounitreverb%E6%B7%B7%E5%93%8D" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>提供混响效果，可以模拟不同环境下的声音反射，用于营造空间感和深度感。</p>
 <p>在音频处理领域，混响（Reverb）效果用于模拟声波在封闭空间中的反射，从而给声音添加深度和空间感。不同的混响算法和插件可以模拟各种环境，从小房间到大教堂，甚至是特殊的声学效果。在 <code>AVAudioUnitReverb</code> 类中，Apple 提供了几种预设的混响类型，但它们并不是所有可能的混响效果。下面列举的是 <code>AVAudioUnitReverb</code> 类中可用的几种预设混响类型：</p>
 <ol>
@@ -880,7 +880,7 @@
 <p>参数：wetDryMix 是混响效果的湿干比参数。它表示原始信号（干信号）和混响信号（湿信号）的混合比例。值范围是 0 到 100，其中 0 表示完全干信号（无混响），100 表示完全湿信号（只有混响）。</p>
 
 
-<h2 class="relative group">3. AVAudioUnitDistortion(失真效果) 
+<h3 class="relative group">3. AVAudioUnitDistortion(失真效果) 
     <div id="3-avaudiounitdistortion%E5%A4%B1%E7%9C%9F%E6%95%88%E6%9E%9C" class="anchor"></div>
     
     <span
@@ -889,11 +889,11 @@
             style="text-decoration-line: none !important;" href="#3-avaudiounitdistortion%E5%A4%B1%E7%9C%9F%E6%95%88%E6%9E%9C" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>用于添加失真效果，可以产生摇滚音乐中常见的吉他放大器失真效果。</p>
 
 
-<h2 class="relative group">4. AVAudioUnitEQ(均衡器) 
+<h3 class="relative group">4. AVAudioUnitEQ(均衡器) 
     <div id="4-avaudiouniteq%E5%9D%87%E8%A1%A1%E5%99%A8" class="anchor"></div>
     
     <span
@@ -902,13 +902,13 @@
             style="text-decoration-line: none !important;" href="#4-avaudiouniteq%E5%9D%87%E8%A1%A1%E5%99%A8" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>均衡器单元，允许你调整音频的频率响应，通过增加或减少特定频率的增益，可以调整音色和清晰度。</p>
 <p>AVAudioUnitEQ 是一个强大的多频段均衡器类，提供了丰富的属性和方法来调整音频信号的频率响应。以下是 AVAudioUnitEQ 及其关键属性的详细说明：</p>
 <p>AVAudioUnitEQ 是 AVAudioUnitEffect 的子类，用于实现多频段均衡器。它包含多个 AVAudioUnitEQFilterParameters 对象，每个对象代表一个频段。</p>
 
 
-<h3 class="relative group">关键属性 
+<h4 class="relative group">关键属性 
     <div id="%E5%85%B3%E9%94%AE%E5%B1%9E%E6%80%A7" class="anchor"></div>
     
     <span
@@ -917,10 +917,10 @@
             style="text-decoration-line: none !important;" href="#%E5%85%B3%E9%94%AE%E5%B1%9E%E6%80%A7" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 
 
-<h4 class="relative group">bands 
+<h5 class="relative group">bands 
     <div id="bands" class="anchor"></div>
     
     <span
@@ -929,7 +929,7 @@
             style="text-decoration-line: none !important;" href="#bands" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ul>
 <li>
 <p>类型: [AVAudioUnitEQFilterParameters]</p>
@@ -945,7 +945,7 @@
 <p>let bands = eq.bands</p>
 
 
-<h4 class="relative group">globalGain 
+<h5 class="relative group">globalGain 
     <div id="globalgain" class="anchor"></div>
     
     <span
@@ -954,7 +954,7 @@
             style="text-decoration-line: none !important;" href="#globalgain" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ul>
 <li>
 <p>类型: Float</p>
@@ -968,7 +968,7 @@
 </ul>
 
 
-<h3 class="relative group">AVAudioUnitEQFilterParameters 
+<h4 class="relative group">AVAudioUnitEQFilterParameters 
     <div id="avaudiouniteqfilterparameters" class="anchor"></div>
     
     <span
@@ -977,11 +977,11 @@
             style="text-decoration-line: none !important;" href="#avaudiouniteqfilterparameters" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 <p>AVAudioUnitEQFilterParameters 是 AVAudioUnitEQ 的一个子类，表示均衡器的单个频段。它包含以下关键属性：</p>
 
 
-<h4 class="relative group">filterType 
+<h5 class="relative group">filterType 
     <div id="filtertype" class="anchor"></div>
     
     <span
@@ -990,7 +990,7 @@
             style="text-decoration-line: none !important;" href="#filtertype" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ul>
 <li>
 <p>类型: AVAudioUnitEQFilterType</p>
@@ -1017,7 +1017,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
 
-<h4 class="relative group">frequency 
+<h5 class="relative group">frequency 
     <div id="frequency" class="anchor"></div>
     
     <span
@@ -1026,7 +1026,7 @@
             style="text-decoration-line: none !important;" href="#frequency" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ul>
 <li>
 <p>类型: Float</p>
@@ -1040,7 +1040,7 @@
 </ul>
 
 
-<h4 class="relative group">bandwidth 
+<h5 class="relative group">bandwidth 
     <div id="bandwidth" class="anchor"></div>
     
     <span
@@ -1049,7 +1049,7 @@
             style="text-decoration-line: none !important;" href="#bandwidth" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ul>
 <li>
 <p>类型: Float</p>
@@ -1063,7 +1063,7 @@
 </ul>
 
 
-<h4 class="relative group">gain 
+<h5 class="relative group">gain 
     <div id="gain" class="anchor"></div>
     
     <span
@@ -1072,7 +1072,7 @@
             style="text-decoration-line: none !important;" href="#gain" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h5>
 <ul>
 <li>
 <p>类型: Float</p>
@@ -1109,7 +1109,7 @@
 </ul>
 
 
-<h3 class="relative group">示例代码 
+<h4 class="relative group">示例代码 
     <div id="%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81" class="anchor"></div>
     
     <span
@@ -1118,7 +1118,7 @@
             style="text-decoration-line: none !important;" href="#%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">AVFoundation</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">// 创建音频引擎</span>
@@ -1157,7 +1157,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">eq</span><span class="p">.</span><span class="n">bands</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">gain</span> <span class="p">=</span> <span class="mf">5.0</span> <span class="c1">// 增加第一个频段的增益</span>
 </span></span></code></pre></div>
 
-<h2 class="relative group">5. AVAudioUnitDelay 
+<h3 class="relative group">5. AVAudioUnitDelay 
     <div id="5-avaudiounitdelay" class="anchor"></div>
     
     <span
@@ -1166,11 +1166,11 @@
             style="text-decoration-line: none !important;" href="#5-avaudiounitdelay" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>延迟效果器，可以创建回声效果，常用于电子音乐制作和空间感增强。</p>
 
 
-<h2 class="relative group">6. AVAudioUnitCompressor(压缩器) 
+<h3 class="relative group">6. AVAudioUnitCompressor(压缩器) 
     <div id="6-avaudiounitcompressor%E5%8E%8B%E7%BC%A9%E5%99%A8" class="anchor"></div>
     
     <span
@@ -1179,11 +1179,11 @@
             style="text-decoration-line: none !important;" href="#6-avaudiounitcompressor%E5%8E%8B%E7%BC%A9%E5%99%A8" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>压缩器，用于控制音频的动态范围，可以防止峰值过载，同时使较弱的声音更加清晰。</p>
 
 
-<h2 class="relative group">7. AVAudioUnitFlanger 
+<h3 class="relative group">7. AVAudioUnitFlanger 
     <div id="7-avaudiounitflanger" class="anchor"></div>
     
     <span
@@ -1192,11 +1192,11 @@
             style="text-decoration-line: none !important;" href="#7-avaudiounitflanger" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>镶边器，可以产生一种类似于旋转扬声器的效果，常用于创造特殊的声音质感。</p>
 
 
-<h2 class="relative group">8. AVAudioUnitPhaser 
+<h3 class="relative group">8. AVAudioUnitPhaser 
     <div id="8-avaudiounitphaser" class="anchor"></div>
     
     <span
@@ -1205,11 +1205,11 @@
             style="text-decoration-line: none !important;" href="#8-avaudiounitphaser" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>相位器，通过对音频信号的不同频率进行相位移，可以产生扫频效果。</p>
 
 
-<h2 class="relative group">9. AVAudioUnitDistortionFactory(失真效果) 
+<h3 class="relative group">9. AVAudioUnitDistortionFactory(失真效果) 
     <div id="9-avaudiounitdistortionfactory%E5%A4%B1%E7%9C%9F%E6%95%88%E6%9E%9C" class="anchor"></div>
     
     <span
@@ -1218,7 +1218,7 @@
             style="text-decoration-line: none !important;" href="#9-avaudiounitdistortionfactory%E5%A4%B1%E7%9C%9F%E6%95%88%E6%9E%9C" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p><code>AVAudioUnitDistortionFactory</code> 是 AVAudioEngine 中的一个类，它提供了一系列预设的失真效果单元。这些失真效果可以应用于音频信号，以产生不同的音色变化，尤其是在音乐制作中非常有用，例如在电吉他音轨上添加失真效果。</p>
 <p>以下是在 <code>AVAudioUnitDistortionFactory</code> 中可获得的所有预设失真单元：</p>
 <ol>
@@ -1236,7 +1236,7 @@
 </ol>
 
 
-<h2 class="relative group">10. AVAudioUnitChorus 
+<h3 class="relative group">10. AVAudioUnitChorus 
     <div id="10-avaudiounitchorus" class="anchor"></div>
     
     <span
@@ -1245,11 +1245,11 @@
             style="text-decoration-line: none !important;" href="#10-avaudiounitchorus" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>合唱效果器，通过轻微延迟和调制信号的叠加，可以模仿多个演奏者的合奏效果。</p>
 
 
-<h2 class="relative group">11. AVAudioUnitAudioUnit 
+<h3 class="relative group">11. AVAudioUnitAudioUnit 
     <div id="11-avaudiounitaudiounit" class="anchor"></div>
     
     <span
@@ -1258,11 +1258,11 @@
             style="text-decoration-line: none !important;" href="#11-avaudiounitaudiounit" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>这个单元允许你加载外部的 Audio Unit 插件，极大地扩展了 <code>AVAudioEngine</code> 的功能，可以使用第三方音频效果和乐器。</p>
 
 
-<h2 class="relative group">12. AVAudioUnitSampler 
+<h3 class="relative group">12. AVAudioUnitSampler 
     <div id="12-avaudiounitsampler" class="anchor"></div>
     
     <span
@@ -1271,11 +1271,11 @@
             style="text-decoration-line: none !important;" href="#12-avaudiounitsampler" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>采样器单元，用于加载和播放采样音频，可以用来构建自己的乐器。</p>
 
 
-<h2 class="relative group">13. AVAudioUnitInstrument 
+<h3 class="relative group">13. AVAudioUnitInstrument 
     <div id="13-avaudiounitinstrument" class="anchor"></div>
     
     <span
@@ -1284,11 +1284,11 @@
             style="text-decoration-line: none !important;" href="#13-avaudiounitinstrument" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>乐器单元，可以加载和播放 MIDI 信息，用于合成音乐。</p>
 
 
-<h2 class="relative group">14. AVAudioUnitVarispeed(播放速度) 
+<h3 class="relative group">14. AVAudioUnitVarispeed(播放速度) 
     <div id="14-avaudiounitvarispeed%E6%92%AD%E6%94%BE%E9%80%9F%E5%BA%A6" class="anchor"></div>
     
     <span
@@ -1297,11 +1297,11 @@
             style="text-decoration-line: none !important;" href="#14-avaudiounitvarispeed%E6%92%AD%E6%94%BE%E9%80%9F%E5%BA%A6" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>变速单元，可以改变音频的速度和播放时间，但不会改变音调。</p>
 
 
-<h2 class="relative group">15. AVAudioUnitRecorder 
+<h3 class="relative group">15. AVAudioUnitRecorder 
     <div id="15-avaudiounitrecorder" class="anchor"></div>
     
     <span
@@ -1310,11 +1310,11 @@
             style="text-decoration-line: none !important;" href="#15-avaudiounitrecorder" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>录音单元，用于录制音频流到文件，可以实现实时录音功能。</p>
 
 
-<h2 class="relative group">16. AVAudioUnitTimeStretch 
+<h3 class="relative group">16. AVAudioUnitTimeStretch 
     <div id="16-avaudiounittimestretch" class="anchor"></div>
     
     <span
@@ -1323,11 +1323,11 @@
             style="text-decoration-line: none !important;" href="#16-avaudiounittimestretch" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>时间拉伸单元，可以改变音频的播放时间而不改变音调，适用于节奏调整。</p>
 
 
-<h2 class="relative group">17. AVAudioUnitMIDI 
+<h3 class="relative group">17. AVAudioUnitMIDI 
     <div id="17-avaudiounitmidi" class="anchor"></div>
     
     <span
@@ -1336,11 +1336,11 @@
             style="text-decoration-line: none !important;" href="#17-avaudiounitmidi" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>MIDI 单元，用于处理 MIDI 信息，可以将 MIDI 控制信息转换为音频输出。</p>
 
 
-<h2 class="relative group">18. AVAudioUnitSampler 
+<h3 class="relative group">18. AVAudioUnitSampler 
     <div id="18-avaudiounitsampler" class="anchor"></div>
     
     <span
@@ -1349,11 +1349,11 @@
             style="text-decoration-line: none !important;" href="#18-avaudiounitsampler" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>虽然已经提过一次，但是值得注意的是，<code>AVAudioUnitSampler</code> 可以作为复杂的乐器引擎使用，它支持多种触发模式和多种音色切换。</p>
 
 
-<h2 class="relative group">19. AVAudioUnitGenerator 
+<h3 class="relative group">19. AVAudioUnitGenerator 
     <div id="19-avaudiounitgenerator" class="anchor"></div>
     
     <span
@@ -1362,11 +1362,11 @@
             style="text-decoration-line: none !important;" href="#19-avaudiounitgenerator" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>音频生成单元，可以生成特定的音频波形，如正弦波、方波等。</p>
 
 
-<h2 class="relative group">20. AVAudioUnitMixer 
+<h3 class="relative group">20. AVAudioUnitMixer 
     <div id="20-avaudiounitmixer" class="anchor"></div>
     
     <span
@@ -1375,11 +1375,11 @@
             style="text-decoration-line: none !important;" href="#20-avaudiounitmixer" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>混音器单元，用于混合多个音频流，可以调整各路音频的音量和平衡。</p>
 
 
-<h2 class="relative group">21. AVAudioUnitEffect 
+<h3 class="relative group">21. AVAudioUnitEffect 
     <div id="21-avaudiouniteffect" class="anchor"></div>
     
     <span
@@ -1388,11 +1388,11 @@
             style="text-decoration-line: none !important;" href="#21-avaudiouniteffect" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>一个通用效果单元，可以作为其他效果单元的基类，但通常不会直接实例化。</p>
 
 
-<h2 class="relative group">22. AVAudioUnitEQFilter 
+<h3 class="relative group">22. AVAudioUnitEQFilter 
     <div id="22-avaudiouniteqfilter" class="anchor"></div>
     
     <span
@@ -1401,11 +1401,11 @@
             style="text-decoration-line: none !important;" href="#22-avaudiouniteqfilter" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>虽然 <code>AVAudioUnitEQ</code> 提供了均衡器功能，但 <code>AVAudioUnitEQFilter</code> 提供了更细粒度的滤波器控制，可以单独设置每个频段的参数。</p>
 
 
-<h2 class="relative group">使用示例 
+<h3 class="relative group">使用示例 
     <div id="%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B-1" class="anchor"></div>
     
     <span
@@ -1414,7 +1414,7 @@
             style="text-decoration-line: none !important;" href="#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B-1" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>使用这些单元时，你需要将它们添加到 <code>AVAudioEngine</code> 中，并通过 <code>connect</code> 方法将它们连接起来形成一个处理链。例如，下面的代码展示了如何将均衡器和混响效果添加到音频引擎中：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">audioEngine</span> <span class="p">=</span> <span class="n">AVAudioEngine</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">eq</span> <span class="p">=</span> <span class="n">AVAudioUnitEQ</span><span class="p">(</span><span class="n">numberOfBands</span><span class="p">:</span> <span class="mi">3</span><span class="p">)</span>
@@ -1432,7 +1432,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">audioEngine</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span><span class="n">reverb</span><span class="p">,</span> <span class="n">to</span><span class="p">:</span> <span class="n">outputNode</span><span class="p">,</span> <span class="n">format</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
 </span></span></code></pre></div>
 
-<h2 class="relative group">注意事项 
+<h3 class="relative group">注意事项 
     <div id="%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="anchor"></div>
     
     <span
@@ -1441,7 +1441,7 @@
             style="text-decoration-line: none !important;" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <blockquote>
 <p>在音频处理链中，效果的顺序会影响最终的音频输出。以下是一些常见的音频效果及其通常的排列顺序：</p>
 <p><strong>动态处理（Dynamic Processing</strong>）: 包括压缩器（Compressor）、限制器（Limiter）等。这些效果通常放在最前面，以控制音频信号的动态范围。</p>
@@ -1453,7 +1453,7 @@
 </blockquote>
 
 
-<h1 class="relative group">获取频谱信息 
+<h2 class="relative group">获取频谱信息 
     <div id="%E8%8E%B7%E5%8F%96%E9%A2%91%E8%B0%B1%E4%BF%A1%E6%81%AF" class="anchor"></div>
     
     <span
@@ -1462,10 +1462,10 @@
             style="text-decoration-line: none !important;" href="#%E8%8E%B7%E5%8F%96%E9%A2%91%E8%B0%B1%E4%BF%A1%E6%81%AF" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
+</h2>
 
 
-<h2 class="relative group">目标需求 
+<h3 class="relative group">目标需求 
     <div id="%E7%9B%AE%E6%A0%87%E9%9C%80%E6%B1%82" class="anchor"></div>
     
     <span
@@ -1474,11 +1474,11 @@
             style="text-decoration-line: none !important;" href="#%E7%9B%AE%E6%A0%87%E9%9C%80%E6%B1%82" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>如何获取音频数据的频谱信息,根据音乐的律动，实现频谱可视化柱状图振幅效果？</p>
 
 
-<h2 class="relative group">思路方案 
+<h3 class="relative group">思路方案 
     <div id="%E6%80%9D%E8%B7%AF%E6%96%B9%E6%A1%88" class="anchor"></div>
     
     <span
@@ -1487,12 +1487,12 @@
             style="text-decoration-line: none !important;" href="#%E6%80%9D%E8%B7%AF%E6%96%B9%E6%A1%88" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>要实现音频频谱可视化柱状图振幅效果，你需要从音频数据中提取频谱信息。可以使用 AVAudioEngine 和 AVAudioPCMBuffer 来获取音频数据，并使用快速傅里叶变换（FFT）来计算频谱。</p>
 <p>以下是一个简化的示例，展示如何获取音频数据的频谱信息并实现频谱可视化柱状图振幅效果：</p>
 
 
-<h3 class="relative group">获取音频数据并计算频谱 
+<h4 class="relative group">获取音频数据并计算频谱 
     <div id="%E8%8E%B7%E5%8F%96%E9%9F%B3%E9%A2%91%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%AE%A1%E7%AE%97%E9%A2%91%E8%B0%B1" class="anchor"></div>
     
     <span
@@ -1501,7 +1501,7 @@
             style="text-decoration-line: none !important;" href="#%E8%8E%B7%E5%8F%96%E9%9F%B3%E9%A2%91%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%AE%A1%E7%AE%97%E9%A2%91%E8%B0%B1" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 <p>使用 AVAudioEngine 和 AVAudioPCMBuffer 获取音频数据。</p>
 <p>使用 vDSP 库中的 FFT 函数计算频谱。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">AVFoundation</span>
@@ -1573,7 +1573,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
 
-<h3 class="relative group">绑定AVAudioEngine 
+<h4 class="relative group">绑定AVAudioEngine 
     <div id="%E7%BB%91%E5%AE%9Aavaudioengine" class="anchor"></div>
     
     <span
@@ -1582,7 +1582,7 @@
             style="text-decoration-line: none !important;" href="#%E7%BB%91%E5%AE%9Aavaudioengine" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 <p>将频谱数据传递给 UI 层，更新柱状图的振幅。</p>
 <p>以下是一个示例代码，展示如何实现这些步骤：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">AVFoundation</span>
@@ -1632,7 +1632,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
 
-<h3 class="relative group">创建频谱显示视图 
+<h4 class="relative group">创建频谱显示视图 
     <div id="%E5%88%9B%E5%BB%BA%E9%A2%91%E8%B0%B1%E6%98%BE%E7%A4%BA%E8%A7%86%E5%9B%BE" class="anchor"></div>
     
     <span
@@ -1641,7 +1641,7 @@
             style="text-decoration-line: none !important;" href="#%E5%88%9B%E5%BB%BA%E9%A2%91%E8%B0%B1%E6%98%BE%E7%A4%BA%E8%A7%86%E5%9B%BE" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 <p>创建一个 VisualizerView 类，用于绘制频谱柱状图。</p>
 <p>在 updateUI 方法中调用 VisualizerView 的更新方法。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
@@ -1684,7 +1684,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
 
-<h3 class="relative group">将频谱数据添加到界面 
+<h4 class="relative group">将频谱数据添加到界面 
     <div id="%E5%B0%86%E9%A2%91%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%B7%BB%E5%8A%A0%E5%88%B0%E7%95%8C%E9%9D%A2" class="anchor"></div>
     
     <span
@@ -1693,7 +1693,7 @@
             style="text-decoration-line: none !important;" href="#%E5%B0%86%E9%A2%91%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%B7%BB%E5%8A%A0%E5%88%B0%E7%95%8C%E9%9D%A2" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
 <p>在视图控制器中添加 VisualizerView 并将频谱数据传递给它</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
 </span></span><span class="line"><span class="cl">

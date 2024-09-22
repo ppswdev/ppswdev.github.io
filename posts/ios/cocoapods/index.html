@@ -106,7 +106,7 @@
     "keywords": ["cocoapods","cocoapods error"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "510"
+    "wordCount": "407"
   }]
   </script>
 
@@ -694,7 +694,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-07-21 09:09:07 &#43;0800 CST">21 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>510 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2024-07-21 09:09:07 &#43;0800 CST">21 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>407 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -733,7 +733,7 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h3 class="relative group">一、Hosts配置 
+<h2 class="relative group">一、Hosts配置 
     <div id="%E4%B8%80hosts%E9%85%8D%E7%BD%AE" class="anchor"></div>
     
     <span
@@ -742,10 +742,10 @@
             style="text-decoration-line: none !important;" href="#%E4%B8%80hosts%E9%85%8D%E7%BD%AE" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 
 
-<h4 class="relative group">1.1 从Finder中配置显示Macintosh HD和用户目录 
+<h3 class="relative group">1.1 从Finder中配置显示Macintosh HD和用户目录 
     <div id="11-%E4%BB%8Efinder%E4%B8%AD%E9%85%8D%E7%BD%AE%E6%98%BE%E7%A4%BAmacintosh-hd%E5%92%8C%E7%94%A8%E6%88%B7%E7%9B%AE%E5%BD%95" class="anchor"></div>
     
     <span
@@ -754,12 +754,12 @@
             style="text-decoration-line: none !important;" href="#11-%E4%BB%8Efinder%E4%B8%AD%E9%85%8D%E7%BD%AE%E6%98%BE%E7%A4%BAmacintosh-hd%E5%92%8C%E7%94%A8%E6%88%B7%E7%9B%AE%E5%BD%95" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h3>
 <p>英文：打开Finder，点击顶部菜单Finder-&gt;Settings</p>
 <p>中文：打开访达，点击顶部菜单访达-&gt;设置-&gt;边栏-&gt;勾选硬盘-&gt;勾选用户目录(房子图标)</p>
 
 
-<h4 class="relative group">1.2 修改配置 /private/etc/Hosts 
+<h3 class="relative group">1.2 修改配置 /private/etc/Hosts 
     <div id="12-%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE-privateetchosts" class="anchor"></div>
     
     <span
@@ -768,19 +768,19 @@
             style="text-decoration-line: none !important;" href="#12-%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE-privateetchosts" aria-label="Anchor">#</a>
     </span>        
     
-</h4>
+</h3>
 <p>进入Macintosh HD后，默认是看不到/private/etc/Hosts， 因为这些事系统的隐藏系统文件，按Command + Shift + .  组合命令，显示或隐藏文件。 找到/private/etc/Hosts，将Hosts文件复制到桌面再进行修改。</p>
 <pre tabindex="0"><code>##
-# Host Database
+##Host Database
 #
-# localhost is used to configure the loopback interface
-# when the system is booting.  Do not change this entry.
+##localhost is used to configure the loopback interface
+##when the system is booting.  Do not change this entry.
 ##
 127.0.0.1   localhost
 255.255.255.255 broadcasthost
 ::1             localhost
  
-# GitHub Start 
+##GitHub Start 
 140.82.114.4      github.com
 140.82.114.20     gist.github.com
  
@@ -808,11 +808,11 @@
 151.101.184.133    avatars8.githubusercontent.com
 199.232.68.133     avatars8.githubusercontent.com
  
-# GitHub End
-</code></pre><p>主要是将# GitHub Start 到 # GitHub End的内容添加进去，保存以后，在将Host文件复制替换到/private/etc/Hosts。</p>
+##GitHub End
+</code></pre><p>主要是将##GitHub Start 到 ##GitHub End的内容添加进去，保存以后，在将Host文件复制替换到/private/etc/Hosts。</p>
 
 
-<h3 class="relative group">二、Git安装 
+<h2 class="relative group">二、Git安装 
     <div id="%E4%BA%8Cgit%E5%AE%89%E8%A3%85" class="anchor"></div>
     
     <span
@@ -821,112 +821,16 @@
             style="text-decoration-line: none !important;" href="#%E4%BA%8Cgit%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<p>如果没有安装xcode , 默认系统是没有git的，我们也可以手动先安装一个</p>
-<p>官方下载地址：<a href="https://www.git-scm.com/download/" target="_blank">https://www.git-scm.com/download/</a></p>
+</h2>
+<p>官方网站：<a href="https://www.git-scm.com/download/" target="_blank">https://www.git-scm.com/download/</a></p>
+<p>如果是iOS开发者，可以先装一个xcode，自带git环境安装。</p>
+<p>默认系统是没有git的，我们也可以手动先安装一个。</p>
 <p>我是macOS系统，<a href="https://www.git-scm.com/download/mac" target="_blank">https://www.git-scm.com/download/mac</a></p>
-<blockquote>
-
-
-<h4 class="relative group">Download for macOS 
-    <div id="download-for-macos" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#download-for-macos" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>There are several options for installing Git on macOS. Note that any non-source distributions are provided by third parties, and may not be up to date with the latest source release.</p>
-<p><strong>Choose one of the following options for installing Git on macOS:</strong></p>
-
-
-<h4 class="relative group">Homebrew 
-    <div id="homebrew" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#homebrew" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Install <a href="https://brew.sh/" target="_blank">homebrew</a> if you don&rsquo;t already have it, then:
-<code>$ brew install git</code></p>
-
-
-<h4 class="relative group">MacPorts 
-    <div id="macports" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#macports" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Install <a href="https://www.macports.org/" target="_blank">MacPorts</a> if you don&rsquo;t already have it, then:
-<code>$ sudo port install git</code></p>
-
-
-<h4 class="relative group">Xcode 
-    <div id="xcode" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#xcode" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Apple ships a binary package of Git with <a href="https://developer.apple.com/xcode/" target="_blank">Xcode</a>.</p>
-
-
-<h4 class="relative group">Binary installer 
-    <div id="binary-installer" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#binary-installer" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Tim Harper provides an <a href="https://sourceforge.net/projects/git-osx-installer/" target="_blank">installer</a> for Git. The latest version is <a href="https://sourceforge.net/projects/git-osx-installer/files/git-2.33.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect" target="_blank">2.33.0</a>, which was released over 2 years ago, on 2021-08-30.</p>
-
-
-<h4 class="relative group">Building from Source 
-    <div id="building-from-source" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#building-from-source" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>If you prefer to build from source, you can find tarballs <a href="https://www.kernel.org/pub/software/scm/git/" target="_blank">on kernel.org</a>. The latest version is <a href="https://www.kernel.org/pub/software/scm/git/git-2.45.1.tar.gz" target="_blank">2.45.1</a>.</p>
-
-
-<h4 class="relative group">Installing git-gui 
-    <div id="installing-git-gui" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#installing-git-gui" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>If you would like to install <a href="https://git-scm.com/docs/git-gui/" target="_blank">git-gui</a> and <a href="https://git-scm.com/docs/gitk/" target="_blank">gitk</a>, git&rsquo;s commit GUI and interactive history browser, you can do so using <a href="https://brew.sh/" target="_blank">homebrew</a>
-<code>$ brew install git-gui</code></p>
-</blockquote>
 <p>这里有很多种方式，我们选择Binary installer二进制安装文件，点击installer，进入<a href="https://sourceforge.net/projects/git-osx-installer/files/%ef%bc%8c%e9%80%89%e6%8b%a9%e6%9c%80%e6%96%b0%e7%9a%84%e7%89%88%e6%9c%ac2.33.0%e3%80%82" target="_blank">https://sourceforge.net/projects/git-osx-installer/files/，选择最新的版本2.33.0。</a></p>
 <p>下载安装即可。</p>
 
 
-<h3 class="relative group">三、Homebrew安装 
+<h2 class="relative group">三、Homebrew安装 
     <div id="%E4%B8%89homebrew%E5%AE%89%E8%A3%85" class="anchor"></div>
     
     <span
@@ -935,8 +839,8 @@
             style="text-decoration-line: none !important;" href="#%E4%B8%89homebrew%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<p><strong><a href="https://brew.sh/" target="_blank">Homebrew官网</a></strong></p>
+</h2>
+<p>Homebrew官网： <a href="https://brew.sh/" target="_blank">https://brew.sh/</a></p>
 <p>打开终端命令输入：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&#34;</span>
 </span></span></code></pre></div><p>或使用国内镜像更快</p>
@@ -944,16 +848,30 @@
 </span></span></code></pre></div><p>如果失败多试几次，可能是你的网络问题，安装完成以后命令行输入：brew -v ，查看homebrew版本看看是否安装成功。</p>
 
 
-<h3 class="relative group">四、RVM安装 
-    <div id="%E5%9B%9Brvm%E5%AE%89%E8%A3%85" class="anchor"></div>
+<h2 class="relative group">四、Ruby安装 
+    <div id="%E5%9B%9Bruby%E5%AE%89%E8%A3%85" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%9B%9Brvm%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E5%9B%9Bruby%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Ruby官网： <a href="https://www.ruby-lang.org/zh_cn/downloads/" target="_blank">https://www.ruby-lang.org/zh_cn/downloads/</a></p>
+
+
+<h3 class="relative group">RVM方式安装 
+    <div id="rvm%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#rvm%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
+<p>RVM（Ruby Version Manager）是一个命令行工具，用于管理多个 Ruby 版本和 Gem 集。它允许你在同一台机器上安装、管理和切换不同的 Ruby 版本，并为每个项目创建独立的 Gem 环境。</p>
 <ol>
 <li>安装命令</li>
 </ol>
@@ -967,23 +885,17 @@
 </ol>
 <pre tabindex="0"><code>rvm -v
 </code></pre><p>能输出版本信息说明安装完成。</p>
-
-
-<h3 class="relative group">五、用RVM安装Ruby 
-    <div id="%E4%BA%94%E7%94%A8rvm%E5%AE%89%E8%A3%85ruby" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BA%94%E7%94%A8rvm%E5%AE%89%E8%A3%85ruby" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>1.列出已知版本</p>
+<ol start="4">
+<li>列出已知版本</li>
+</ol>
 <pre tabindex="0"><code>rvm list known
-</code></pre><p>2.安装指定ruby版本</p>
+</code></pre><ol start="5">
+<li>安装指定ruby版本</li>
+</ol>
 <pre tabindex="0"><code>rvm install 3.0.0
-</code></pre><p>3.查看ruby版本信息</p>
+</code></pre><ol start="6">
+<li>查看ruby版本信息</li>
+</ol>
 <blockquote>
 <p>xiaopin@PPM2-MacBook-Air ~ % ruby -v
 ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [arm64-darwin23]</p>
@@ -991,16 +903,56 @@ ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [arm64-darwin23]</p>
 <p>说明安装成功！</p>
 
 
-<h3 class="relative group">六、升级gem和更换镜像源 
-    <div id="%E5%85%AD%E5%8D%87%E7%BA%A7gem%E5%92%8C%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90" class="anchor"></div>
+<h3 class="relative group">brew方式安装(推荐) 
+    <div id="brew%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E6%8E%A8%E8%8D%90" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%85%AD%E5%8D%87%E7%BA%A7gem%E5%92%8C%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#brew%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E6%8E%A8%E8%8D%90" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
+<p>RVM方式好像停止更新一样，无法保持Ruby版本最新兼容，这次macOS 15.0系统，RVM方式的版本不兼容新系统。</p>
+<ul>
+<li>使用Brew安装最新的Ruby版本</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install ruby
+</span></span></code></pre></div><ul>
+<li>修改Shell配置文件,</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#Intel芯片(目前来说可以抛弃了，现在基本都是苹果芯片)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;export PATH=&#34;/usr/local/opt/ruby/bin:$PATH&#34;&#39;</span> &gt;&gt; ~/.bash_profile
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.bash_profile
+</span></span><span class="line"><span class="cl"><span class="c1">#苹果M系列芯片</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;export PATH=&#34;/opt/homebrew/opt/ruby/bin:$PATH&#34;&#39;</span> &gt;&gt; ~/.zshrc
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.zshrc
+</span></span></code></pre></div><p>也可以手动的的找到.zshrc文件，一般在 <code>Users/用户名/.zshrc</code> 目录下，用文本编辑器打开，在最后面加上</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#如果是RVM安装的会自动有这行，可以不管，也可以注释</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$PATH</span><span class="s2">:</span><span class="nv">$HOME</span><span class="s2">/.rvm/bin&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#在后面加上这行，会自动的将默认环境指向homebrew的ruby版本</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;/opt/homebrew/opt/ruby/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><ul>
+<li>验证安装</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#查看默认ruby路径</span>
+</span></span><span class="line"><span class="cl">which ruby
+</span></span><span class="line"><span class="cl"><span class="c1">#查看ruby版本</span>
+</span></span><span class="line"><span class="cl">ruby -v
+</span></span><span class="line"><span class="cl"><span class="c1">#ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [arm64-darwin24]</span>
+</span></span></code></pre></div>
+
+<h2 class="relative group">五、升级gem和更换镜像源 
+    <div id="%E4%BA%94%E5%8D%87%E7%BA%A7gem%E5%92%8C%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E4%BA%94%E5%8D%87%E7%BA%A7gem%E5%92%8C%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Gems 是 Ruby 的包管理系统（RubyGems）用来分发和管理 Ruby 库和应用程序的包。Gems 可以包含库、应用程序、文档和其他资源，方便开发者在项目中使用和管理依赖。</p>
 <ol>
 <li>升级gem命令</li>
 </ol>
@@ -1016,16 +968,16 @@ ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [arm64-darwin23]</p>
 <pre tabindex="0"><code>gem sources -l
 </code></pre>
 
-<h3 class="relative group">七、彻底卸载cocoapods 
-    <div id="%E4%B8%83%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDcocoapods" class="anchor"></div>
+<h2 class="relative group">六、彻底卸载cocoapods 
+    <div id="%E5%85%AD%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDcocoapods" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%83%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDcocoapods" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E5%85%AD%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BDcocoapods" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 <ol>
 <li>卸载已有旧版本</li>
 </ol>
@@ -1057,16 +1009,16 @@ ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [arm64-darwin23]</p>
 </span></span><span class="line"><span class="cl">...
 </span></span></code></pre></div>
 
-<h3 class="relative group">八、Cocoapods安装 
-    <div id="%E5%85%ABcocoapods%E5%AE%89%E8%A3%85" class="anchor"></div>
+<h2 class="relative group">七、Cocoapods安装 
+    <div id="%E4%B8%83cocoapods%E5%AE%89%E8%A3%85" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%85%ABcocoapods%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E4%B8%83cocoapods%E5%AE%89%E8%A3%85" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 <p>macOS 10.11以后系统的安装cocoapods 指令，可安装制定版本：</p>
 <pre tabindex="0"><code>sudo gem install -n /usr/local/bin cocoapods
 或
@@ -1075,16 +1027,16 @@ sudo gem install -n /usr/local/bin cocoapods -v 1.9.2
 <pre tabindex="0"><code>pod --version
 </code></pre>
 
-<h3 class="relative group">九、pod search异常解决 
-    <div id="%E4%B9%9Dpod-search%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3" class="anchor"></div>
+<h2 class="relative group">八、pod search异常解决 
+    <div id="%E5%85%ABpod-search%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B9%9Dpod-search%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E5%85%ABpod-search%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 <ol>
 <li>尝试删除</li>
 </ol>
@@ -1103,16 +1055,16 @@ rm ~/Library/Caches/CocoaPods/search_index.json
 pod search afnetworking
 </code></pre>
 
-<h3 class="relative group">十、Cocoapods国内镜像源&amp;Github镜像源 
-    <div id="%E5%8D%81cocoapods%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90github%E9%95%9C%E5%83%8F%E6%BA%90" class="anchor"></div>
+<h2 class="relative group">九、Cocoapods国内镜像源&amp;Github镜像源 
+    <div id="%E4%B9%9Dcocoapods%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90github%E9%95%9C%E5%83%8F%E6%BA%90" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%8D%81cocoapods%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90github%E9%95%9C%E5%83%8F%E6%BA%90" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E4%B9%9Dcocoapods%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90github%E9%95%9C%E5%83%8F%E6%BA%90" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 <ol>
 <li>
 <p>查看本地源</p>
@@ -1145,7 +1097,7 @@ gitee源：<a href="https://gitee.com/mirrors/CocoaPods-Specs.git" target="_blan
 <pre tabindex="0"><code>source &#39;https://gitee.com/mirrors/CocoaPods-Specs.git&#39;
 </code></pre></li>
 <li>
-<p>也可以用官方CDN源</p>
+<p>也可以用官方CDN源，Podfile文件默认不设置source(推荐)</p>
 <pre tabindex="0"><code>source &#39;https://cdn.cocoapods.org/&#39;
 </code></pre></li>
 </ol>
@@ -1501,7 +1453,7 @@ gitee源：<a href="https://gitee.com/mirrors/CocoaPods-Specs.git" target="_blan
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/git/use/">
+            <a class="flex group mr-3" href="/posts/ios/macos_dev_env/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1513,11 +1465,11 @@ gitee源：<a href="https://gitee.com/mirrors/CocoaPods-Specs.git" target="_blan
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Git入门教程</span
+                  >macOS开发环境的安装和配置</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-06-17 17:54:26 &#43;0800 CST">17 June 2024</time>
+                    <time datetime="2024-07-20 09:09:07 &#43;0800 CST">20 July 2024</time>
                   
                 </span>
               </span>

@@ -29,13 +29,33 @@
     </item>
     
     <item>
+      <title>macOS开发环境的安装和配置</title>
+      <link>http://localhost:1313/posts/ios/macos_dev_env/</link>
+      <pubDate>Sat, 20 Jul 2024 09:09:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/ios/macos_dev_env/</guid>
+      <description>macOS开发环境的安装和配置</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ios/macos_dev_env/featured.png" />
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0800</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description>这个页面的内容是全宽的。</description>
+      <description>个人信息展示</description>
       
+    </item>
+    
+    <item>
+      <title>HelloApp</title>
+      <link>http://localhost:1313/portfolio/hello_app/</link>
+      <pubDate>Mon, 17 Jun 2024 21:00:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/hello_app/</guid>
+      <description>HelloApp base on Flutter. Support Android, iOS, Web, macOS, Windows</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/portfolio/hello_app/featured.jpeg" />
     </item>
     
     <item>
@@ -89,23 +109,13 @@
     </item>
     
     <item>
-      <title>Portfolio - 01</title>
-      <link>http://localhost:1313/portfolio/p001/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>HelloApp Admin Web</title>
+      <link>http://localhost:1313/portfolio/hello_admin/</link>
+      <pubDate>Fri, 17 May 2024 21:00:01 +0800</pubDate>
       
-      <guid>http://localhost:1313/portfolio/p001/</guid>
-      <description>作品1</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/portfolio/p001/featured.png" />
-    </item>
-    
-    <item>
-      <title>Portfolio - 02</title>
-      <link>http://localhost:1313/portfolio/p002/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/portfolio/p002/</guid>
-      <description>作品2</description>
-      
+      <guid>http://localhost:1313/portfolio/hello_admin/</guid>
+      <description>HelloApp Admin Web</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/portfolio/hello_admin/featured.jpeg" />
     </item>
     
   </channel>
