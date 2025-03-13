@@ -6,8 +6,28 @@
     <description>Recent content on PPSW.ASIA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2024 PPSW.ASIA</copyright>
-    <lastBuildDate>Sat, 17 Aug 2024 21:00:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 PPSW.ASIA</copyright>
+    <lastBuildDate>Tue, 11 Mar 2025 09:09:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F002-VSCode和扩展安装配置及使用</title>
+      <link>http://localhost:1313/posts/flutter/002/</link>
+      <pubDate>Tue, 11 Mar 2025 09:09:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/002/</guid>
+      <description>F002-VSCode和扩展安装配置及使用</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/flutter/002/featured.jpeg" />
+    </item>
+    
+    <item>
+      <title>F001-Flutter必备基础和环境安装</title>
+      <link>http://localhost:1313/posts/flutter/001/</link>
+      <pubDate>Mon, 10 Mar 2025 09:09:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/001/</guid>
+      <description>F001-Flutter必备基础和环境安装</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/flutter/001/featured.jpeg" />
+    </item>
+    
     <item>
       <title>AVAudioEngine详解</title>
       <link>http://localhost:1313/posts/ios/audioengine/</link>
