@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>F003-开发效率神器</title>
+      <link>http://localhost:1313/posts/flutter/003/</link>
+      <pubDate>Tue, 11 Mar 2025 09:09:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/003/</guid>
+      <description>F003-开发效率神器，vscode,cursor, 智能代码生成</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/flutter/003/featured.jpeg" />
+    </item>
+    
+    <item>
       <title>F001-Flutter必备基础和环境安装</title>
       <link>http://localhost:1313/posts/flutter/001/</link>
       <pubDate>Mon, 10 Mar 2025 09:09:07 +0800</pubDate>
